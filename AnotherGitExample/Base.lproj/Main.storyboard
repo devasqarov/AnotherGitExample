@@ -25,7 +25,7 @@
         <!--Eldor-->
         <scene sceneID="TuA-tr-HWT">
             <objects>
-                <viewController storyboardIdentifier="First" id="5kT-Js-9Ec" customClass="Eldor" customModule="AnotherGitExample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="5kT-Js-9Ec" customClass="Eldor" customModule="AnotherGitExample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GxY-Xj-QjT">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -40,7 +40,7 @@
         <!--Shakhzod-->
         <scene sceneID="YBN-i8-AdV">
             <objects>
-                <viewController storyboardIdentifier="First" id="dbn-1S-TVK" customClass="Shakhzod" customModule="AnotherGitExample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="dbn-1S-TVK" customClass="Shakhzod" customModule="AnotherGitExample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="guh-s4-eVq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -55,7 +55,7 @@
         <!--Muhammad Yunus-->
         <scene sceneID="16w-o2-qqG">
             <objects>
-                <viewController storyboardIdentifier="First" id="C7t-XW-zpb" customClass="MuhammadYunus" customModule="AnotherGitExample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="C7t-XW-zpb" customClass="MuhammadYunus" customModule="AnotherGitExample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3IN-Qm-Rw2">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -70,7 +70,7 @@
         <!--Aziza-->
         <scene sceneID="rEg-7h-AK9">
             <objects>
-                <viewController storyboardIdentifier="First" id="gng-Bd-j0L" customClass="Aziza" customModule="AnotherGitExample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="gng-Bd-j0L" customClass="Aziza" customModule="AnotherGitExample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FYh-fn-bNH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -85,7 +85,7 @@
         <!--Rahmatilloh-->
         <scene sceneID="fPR-re-QU6">
             <objects>
-                <viewController storyboardIdentifier="First" id="6yF-AD-O2Y" customClass="Rahmatilloh" customModule="AnotherGitExample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="6yF-AD-O2Y" customClass="Rahmatilloh" customModule="AnotherGitExample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Xp2-U7-qSe">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
