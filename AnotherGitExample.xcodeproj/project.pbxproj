@@ -13,6 +13,11 @@
 		F2FB88B023EC6BB000F2A0D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2FB88AE23EC6BB000F2A0D5 /* Main.storyboard */; };
 		F2FB88B223EC6BB300F2A0D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2FB88B123EC6BB300F2A0D5 /* Assets.xcassets */; };
 		F2FB88B523EC6BB300F2A0D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2FB88B323EC6BB300F2A0D5 /* LaunchScreen.storyboard */; };
+		F2FB88BD23EC6C1400F2A0D5 /* Eldor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB88BC23EC6C1400F2A0D5 /* Eldor.swift */; };
+		F2FB88BF23EC6C4300F2A0D5 /* Shakhzod.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB88BE23EC6C4300F2A0D5 /* Shakhzod.swift */; };
+		F2FB88C123EC6C5E00F2A0D5 /* MuhammadYunus.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB88C023EC6C5E00F2A0D5 /* MuhammadYunus.swift */; };
+		F2FB88C323EC6C9300F2A0D5 /* Rahmatilloh.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB88C223EC6C9300F2A0D5 /* Rahmatilloh.swift */; };
+		F2FB88C523EC6C9F00F2A0D5 /* Aziza.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB88C423EC6C9F00F2A0D5 /* Aziza.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		F2FB88B123EC6BB300F2A0D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2FB88B423EC6BB300F2A0D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2FB88B623EC6BB300F2A0D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2FB88BC23EC6C1400F2A0D5 /* Eldor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eldor.swift; sourceTree = "<group>"; };
+		F2FB88BE23EC6C4300F2A0D5 /* Shakhzod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shakhzod.swift; sourceTree = "<group>"; };
+		F2FB88C023EC6C5E00F2A0D5 /* MuhammadYunus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuhammadYunus.swift; sourceTree = "<group>"; };
+		F2FB88C223EC6C9300F2A0D5 /* Rahmatilloh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rahmatilloh.swift; sourceTree = "<group>"; };
+		F2FB88C423EC6C9F00F2A0D5 /* Aziza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aziza.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,11 @@
 				F2FB88B123EC6BB300F2A0D5 /* Assets.xcassets */,
 				F2FB88B323EC6BB300F2A0D5 /* LaunchScreen.storyboard */,
 				F2FB88B623EC6BB300F2A0D5 /* Info.plist */,
+				F2FB88BC23EC6C1400F2A0D5 /* Eldor.swift */,
+				F2FB88BE23EC6C4300F2A0D5 /* Shakhzod.swift */,
+				F2FB88C023EC6C5E00F2A0D5 /* MuhammadYunus.swift */,
+				F2FB88C223EC6C9300F2A0D5 /* Rahmatilloh.swift */,
+				F2FB88C423EC6C9F00F2A0D5 /* Aziza.swift */,
 			);
 			path = AnotherGitExample;
 			sourceTree = "<group>";
@@ -138,9 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2FB88BD23EC6C1400F2A0D5 /* Eldor.swift in Sources */,
+				F2FB88BF23EC6C4300F2A0D5 /* Shakhzod.swift in Sources */,
 				F2FB88AD23EC6BB000F2A0D5 /* ViewController.swift in Sources */,
 				F2FB88A923EC6BB000F2A0D5 /* AppDelegate.swift in Sources */,
+				F2FB88C123EC6C5E00F2A0D5 /* MuhammadYunus.swift in Sources */,
+				F2FB88C523EC6C9F00F2A0D5 /* Aziza.swift in Sources */,
 				F2FB88AB23EC6BB000F2A0D5 /* SceneDelegate.swift in Sources */,
+				F2FB88C323EC6C9300F2A0D5 /* Rahmatilloh.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
