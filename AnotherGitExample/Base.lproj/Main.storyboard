@@ -3,6 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -58,7 +59,27 @@
                     <view key="view" contentMode="scaleToFill" id="guh-s4-eVq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shakhzod" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mlq-Rl-y3b">
+                                <rect key="frame" x="20" y="344" width="374" height="218"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Mlq-Rl-y3b" firstAttribute="leading" secondItem="jgK-N2-GSy" secondAttribute="leading" constant="20" id="Cva-aN-AZd"/>
+                            <constraint firstItem="jgK-N2-GSy" firstAttribute="trailing" secondItem="Mlq-Rl-y3b" secondAttribute="trailing" constant="20" id="W4b-jx-c8t"/>
+                            <constraint firstItem="jgK-N2-GSy" firstAttribute="bottom" secondItem="Mlq-Rl-y3b" secondAttribute="bottom" constant="300" id="hUq-ee-ks7"/>
+                            <constraint firstItem="Mlq-Rl-y3b" firstAttribute="top" secondItem="jgK-N2-GSy" secondAttribute="top" constant="300" id="stl-GV-nQb"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="jgK-N2-GSy"/>
                     </view>
                 </viewController>
@@ -88,7 +109,20 @@
                     <view key="view" contentMode="scaleToFill" id="FYh-fn-bNH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aziyza" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CIc-IJ-7pY">
+                                <rect key="frame" x="20" y="74" width="374" height="52.5"/>
+                                <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="45"/>
+                                <color key="textColor" red="0.031372550874948502" green="0.74117648601531982" blue="0.9490196704864502" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90539222955703735" green="0.96911770105361938" blue="0.96813732385635376" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="CIc-IJ-7pY" firstAttribute="leading" secondItem="dG5-hA-gHv" secondAttribute="leading" constant="20" id="Xmw-DH-LgA"/>
+                            <constraint firstItem="dG5-hA-gHv" firstAttribute="trailing" secondItem="CIc-IJ-7pY" secondAttribute="trailing" constant="20" id="YQ8-7z-Jcv"/>
+                            <constraint firstItem="CIc-IJ-7pY" firstAttribute="top" secondItem="dG5-hA-gHv" secondAttribute="top" constant="30" id="wmh-Ih-qXI"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="dG5-hA-gHv"/>
                     </view>
                 </viewController>
@@ -103,7 +137,20 @@
                     <view key="view" contentMode="scaleToFill" id="Xp2-U7-qSe">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rahmatillo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sqr-T4-ASm">
+                                <rect key="frame" x="10" y="427.5" width="394" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Sqr-T4-ASm" firstAttribute="leading" secondItem="tyt-UF-3Y2" secondAttribute="leading" constant="10" id="2tM-oY-SxP"/>
+                            <constraint firstItem="Sqr-T4-ASm" firstAttribute="centerY" secondItem="Xp2-U7-qSe" secondAttribute="centerY" id="hr0-3F-dMp"/>
+                            <constraint firstItem="tyt-UF-3Y2" firstAttribute="trailing" secondItem="Sqr-T4-ASm" secondAttribute="trailing" constant="10" id="lPU-91-f4H"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="tyt-UF-3Y2"/>
                     </view>
                 </viewController>
